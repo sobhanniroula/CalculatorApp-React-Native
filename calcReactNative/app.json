@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "Calculator React Native",
+    "description": "Calculator app made by Sobhan Niroula on React Native",
     "slug": "calcReactNative",
     "privacy": "public",
     "sdkVersion": "33.0.0",
@@ -9,9 +10,15 @@
       "android",
       "web"
     ],
+    "android": {
+      "package": "sobhanniroula.reactnative",
+      "permissions": [
+        ""
+      ]
+    },
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-blue.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
